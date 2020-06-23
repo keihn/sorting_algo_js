@@ -1,6 +1,13 @@
 // Test array
 array = [67, 25, 11, 22, 10]
 
+/**
+ * Implements a selection sort algorithm
+ * 
+ * @param {*} array 
+ * @return array
+ */
+
 function selectionSort(array){
     for (let i = 0; i < array.length; i++) {
 
